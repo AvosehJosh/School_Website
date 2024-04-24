@@ -2,6 +2,7 @@ import React from 'react';
 import NavStyle from '../Css/NavStyle.css';
 
 
+
 function NavComp() {
   return (
     <header>

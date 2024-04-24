@@ -1,0 +1,35 @@
+.mainContainer{
+    background: #36384E;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.mainContainer .subContain {
+    position: relative;
+    /* width: 90px; */
+    /* height: 100px; */
+    margin: 20px 400px;
+    padding-top: 30px;
+}
+
+.subContain .firstSub{
+    padding-bottom: 15px;
+    word-spacing: 5px;
+    font-size: 2rem;
+}
+
+.subContain .secondSub {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.subContain input[type=text]{
+    width: 90%;
+    height: 40px;
+    color: blue;
+    padding: 10px;
+
+}

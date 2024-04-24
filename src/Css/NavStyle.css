@@ -15,10 +15,9 @@ a:hover {
 
 /* HEADING STYLING */
 header {
-    background: #fff;
     position: fixed;
     width: 100%;
-    padding: 0 2rem;
+    z-index: 1;
 }
 
 header a {
@@ -26,13 +25,14 @@ header a {
 }
 
 .navbar {
-    width: 100%;
+    background: #fcfbfb;
     height: 60px;
-    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .navbar .logo a{
@@ -61,4 +61,11 @@ header a {
 
 .act_btn_2:hover {
     color: black;
+}
+
+
+@media (max-width: 1050px) {
+    .navbar .links, .navbar .act_btn_1, .navbar .act_btn_2 {
+        display: none;
+    }
 }
