@@ -7,7 +7,7 @@ function NavComp() {
   return (
     <header>
       <div className='navbar'>
-          <div className='logo'><a href='logo.com'>Mrs. College Guide</a></div>
+          <div className='logo'><a href='logo.com'>AsJ College</a></div>
           <ul className='links'>
             <li><a href='uni.com'>Universities </a></li>
             <li><a href='comm.com'>Community</a></li> 

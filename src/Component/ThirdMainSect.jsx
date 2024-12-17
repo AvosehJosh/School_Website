@@ -38,7 +38,7 @@ function Third_MainSect() {
        </div>
 
        <div className="extra">
-          <button className='all'> SEE ALL -></button>
+          <button className='all'> SEE ALL -</button>
           <div className="course" > Most Popular Courses</div>
           <div className="underline"></div>
         </div> 

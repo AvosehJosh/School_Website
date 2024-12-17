@@ -10,7 +10,9 @@ a {
 }
 
 a:hover {
-    color: rgb(245, 182, 10);
+    background-color: rgb(245, 182, 10);
+    padding: 6px;
+    border-radius: 5px;
 }
 
 /* HEADING STYLING */
@@ -21,7 +23,7 @@ header {
 }
 
 header a {
-    color: #000;
+    color: #7c6311;
 }
 
 .navbar {
